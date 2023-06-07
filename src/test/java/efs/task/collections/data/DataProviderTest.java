@@ -33,7 +33,7 @@ class DataProviderTest {
     }
 
     @Test
-    void shouldReturnOnlyUniqueDLCHeroes(){
+    void shouldReturnOnlyUniqueDLCHeroes() {
         assertEquals(DLC_HEROES_NUMBER, underTest.getDLCHeroesSet().size());
     }
 
